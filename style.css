@@ -153,3 +153,23 @@ img {
   padding: 50px 10px;
   align-items: center;
 }
+
+.big-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.small-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.sign-up-bottom {
+  border: #f9faf8 2px solid;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
