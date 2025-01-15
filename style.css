@@ -136,3 +136,20 @@ img {
   align-self: flex-end;
   font-weight: 700;
 }
+
+.last-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 125px;
+}
+
+.blue-rectangle {
+  background-color: #3882f6;
+  flex: 0 1 900px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 10px;
+  align-items: center;
+}
