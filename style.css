@@ -36,18 +36,30 @@ a {
 
 .intro {
   display: flex;
+  justify-content: space-between;
 }
 
-img {
-  width: 550px;
-  max-width: 100%;
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 75%;
+  max-height: 75%;
+  object-fit: cover;
+  border-radius: 8px;
+  flex: 0 1 auto;
+}
+
+.hero-image {
+  width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  flex: 0 1 auto;
 }
-
-.image {
-  margin: 24px auto;
-}
-
 .hero-main {
   padding: 0;
   font-size: 48px;
