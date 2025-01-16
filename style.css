@@ -185,3 +185,12 @@ a {
   padding: 10px 40px;
   border-radius: 10px;
 }
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
